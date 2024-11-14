@@ -19,7 +19,7 @@ nltk.download('vader_lexicon')  # Download sentiment analysis data
 sia = SentimentIntensityAnalyzer()
 
 # Youtube v3 API Key
-api_key = 'AIzaSyA6WUGF8SjU-Bh_IWcpcm0ukqPCbv8Yinc'
+
 youtube = build('youtube', 'v3', developerKey=api_key)
 
 # Load pre-trained Dialo GPT model and tokenizer
